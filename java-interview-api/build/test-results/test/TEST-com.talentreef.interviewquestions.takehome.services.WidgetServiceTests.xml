@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.talentreef.interviewquestions.takehome.services.WidgetServiceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-19T13:56:40" hostname="karen-TravelMate-P215-53" time="0.031">
+  <properties/>
+  <testcase name="when_updateWidget_expect_updateResult" classname="com.talentreef.interviewquestions.takehome.services.WidgetServiceTests" time="0.031"/>
+  <system-out><![CDATA[19:26:40.154 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.talentreef.interviewquestions.takehome.services.WidgetServiceTests]: WidgetServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:26:40.900 [Test worker] WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -- 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/karen/.gradle/caches/modules-2/files-2.1/org.json/json/20231013/e22e0c040fe16f04ffdb85d851d77b07fc05ea52/json-20231013.jar!/org/json/JSONObject.class
+	jar:file:/home/karen/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/karen/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.8/ae6ebe485f3bcd0a1e20241488a32e6400a501ef/byte-buddy-agent-1.14.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
